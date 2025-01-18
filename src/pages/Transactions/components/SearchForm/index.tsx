@@ -22,7 +22,7 @@ export function SearchForm() {
   return (
     <SearchFormContainer onSubmit={handleSubmit(handleSearchTransactions)}>
       <input
-        type="text"
+        type="search"
         {...register("query")}
         placeholder="Buscar transações"
       />
